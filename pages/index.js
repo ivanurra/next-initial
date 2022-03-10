@@ -13,7 +13,7 @@ export default function HomePage() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Go to <Link href="/about">About</Link>
+          Go to <Link href="/">Home</Link>
         </h1>
 
         <p className={styles.description}>
