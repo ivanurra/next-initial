@@ -17,7 +17,7 @@ export default function HomePage() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
+          Get started by{" "}
           <code className={styles.code}>pages/index.js</code>
         </p>
       </main>
