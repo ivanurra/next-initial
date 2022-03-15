@@ -1,13 +1,12 @@
-import Link from "next/link";
-import React from "react";
-// import styles from "../styles/navbar.css";
+import { ActiveLink } from "./ActiveLink";
+import styles from "../components/Navbar.module.css";
 
 export const Navbar = () => {
   return (
-    <nav>
-      <Link href="/">Home</Link>
-      <a href="/Contact">Contact</a>
-      <a href="/About">About</a>
+    <nav className={styles.navbarlinks}>
+      <ActiveLink text="Home" href="/" />
+      <ActiveLink text="Contact" href="/contact" />
+      <ActiveLink text="About" href="/about" />
     </nav>
   );
 };
