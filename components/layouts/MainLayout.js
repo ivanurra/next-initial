@@ -11,7 +11,6 @@ export const MainLayout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>{title}</h1>
       <main className={styles.main}>{children}</main>
     </div>
   );
