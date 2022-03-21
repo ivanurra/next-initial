@@ -1,6 +1,6 @@
-import styles from "./MainLayout.module.css";
+import { FC } from "react";
 
-export const DarkLayout = ({ children }) => {
+export const DarkLayout: FC = ({ children }) => {
   return (
     <div
       style={{
