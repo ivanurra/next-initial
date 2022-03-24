@@ -13,7 +13,7 @@ export default function Pricing() {
   );
 }
 
-Pricing.getLayout = function getLayout(page) {
+Pricing.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>{page}</DarkLayout>
